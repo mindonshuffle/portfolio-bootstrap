@@ -1,3 +1,7 @@
+// @import "./fontawesome/scss/fontawesome.scss";
+// @import "./fontawesome/scss/fa-solid.scss";
+// @import "./fontawesome/scss/fa-brands.scss";
+
 // Typography
 body {
   @include body-font;
@@ -30,7 +34,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f121';
+  content: '';
   font-family: FontAwesome;
   font-size: 2em;
 }
